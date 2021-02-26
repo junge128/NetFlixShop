@@ -1,0 +1,76 @@
+.van-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+    z-index: 2025;
+}
+.van-popup {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 80%;
+    top: 25%;
+    left: 10%;
+    background: white;
+    z-index: 2026;
+    position: fixed;
+    border-radius: 16px;
+}
+.van-popup > .van-header {
+    display: flex;
+    margin: 0 16px;
+}
+.van-popup > .van-header > .van-image {
+    width: 96px;
+    height: 96px;
+    margin: 12px 12px 12px 0;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.van-popup > .van-header > .van-image > img {
+    width: 100%;
+    height: 100%;
+}
+.van-popup > .van-header > .van-goods-info {
+    padding: 12px 20px 12px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.van-popup > .van-header > .van-goods-info > .van-goods-price {
+    color: #ee0a24;
+    text-align: center;
+}
+.van-popup > .van-header > .van-goods-info > .van-goods-price > .van-price-num{
+    font-size: 22px;
+}
+.van-popup > .van-header > .van-goods-info > .van-header-item {
+    margin-top: 8px;
+    color: #969799;
+    font-size: 12px;
+    line-height: 16px;
+}
+.van-popup > .van-body > .van-group-container > .van-hairline-bottom {
+    text-align: left;
+    margin: 0 16px 12px;
+    font-size: 14px;
+}
+.van-popup > .van-body > .van-group-container > .van-hairline-bottom > .van-row-title {
+    padding-bottom: 12px;
+}
+.van-popup > .van-body > .van-group-container > .van-hairline-bottom > .van-row-item {
+    padding: 8px;
+    font-size: 13px;
+    line-height: 16px;
+    background: #f7f8fa;
+    display: inline-block;
+    margin: 0 12px 12px 0;
+    border-radius: 4px;
+}
+.van-popup > .van-body > .van-group-container > .van-hairline-bottom > .van-row-item-active{
+    color: #ee0a24;
+    background: rgba(255, 0, 0, 0.1);
+}

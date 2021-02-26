@@ -1,0 +1,36 @@
+div {
+    margin: 0;
+    text-align: center;
+}
+
+.login-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 100px 15px;
+}
+
+.logo-box {
+    margin-bottom: 100px;
+}
+.logo { 
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.account {
+    margin: auto;
+}
+
+.van-cell--borderless::after, .van-cell:last-child::after {
+    display: block;
+}
+
+.btn {
+    margin-top: 20px;
+    color: rgb(255, 255, 255); 
+    background: rgb(255, 82, 82); 
+    border-color: rgb(255, 82, 82);
+}

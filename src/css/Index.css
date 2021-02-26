@@ -1,0 +1,157 @@
+  @media (min-width: 1024px){
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+  }
+  .hot-container {
+    background: linear-gradient(#ff5252,#1989fa,#ff5252);
+    color: white;
+    padding-bottom: 50px;
+  }
+  .max-width {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* 这里把header与flex-hot是同级，所以用wrap可以达到效果 也可以用一个[flex]div包裹住三个flex-hot，然后设置flex-direaction*/
+  }
+  .header {
+    width: 100%;
+  }
+  .header > .title-container {
+      padding: 40px 0 20px 0;
+      text-shadow: rgba(0,0,0,.4) 0 4px 5px;
+      text-align: center;
+  }
+  .header > .title-container > h2 {
+    margin: 0;
+  }
+  .header > .title-container > h3 {
+    margin: 10px 0;
+  }
+  .flex-hot {
+    flex: 0 1 90%;
+    margin: auto;
+    background: #fff;
+    color: #969799;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+  }
+  @media (min-width: 1024px){
+    .flex-hot {
+      flex: 0 1 31%;
+    }
+  }
+  @media (max-width: 1024px) and (min-width: 600px){
+    .flex-hot {
+      flex: 0 1 38%;
+    }
+  }
+  .flex-hot > .item-imgs {
+    height: 180px;
+    background: #000;
+  }
+  .flex-hot > .item-imgs > .imgs-box {
+    height: 150px;
+    padding: 30px 30px 0 30px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+  .flex-hot > .item-imgs > .imgs-box > img {
+    width: 100%;
+    height: 80%;
+  }
+  .flex-hot > .item-imgs > .tags-box {
+    text-align: left;
+  }
+  .flex-hot > .item-imgs > .tags-box > span {
+    color: #ccc;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  .flex-hot > .item-title {
+    display: flex;
+    padding: 10px 10px 0 10px;
+    justify-content: space-between;
+  }
+  .flex-hot > .item-title > p {
+    font-size: 24px;
+    color: red;
+    margin: 0;
+  }
+  .flex-hot > .item-title > .item-title-name {
+    font-weight: 700;
+  }
+  .flex-hot > .item-title > p > .del-text {
+    font-size: 16px;
+    color: #969799;
+  }
+  .flex-hot > .item-info {
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #969799;
+  }
+  .flex-hot > .item-info > p {
+    margin: 0;
+    text-align: left;
+    margin-top: 5px;
+  }
+  .flex-hot > .item-bottom {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 10px;
+      display: flex;
+      padding-top: 15px;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .flex-hot > .item-bottom > .svg-box > i {
+    width: 24px;
+    height: 30px;
+    font-size: 22px;
+    line-height: 1.2;
+    margin-right: 20px;
+  }
+  /* .flex-hot > .item-bottom > .van-button {
+    height: 44px;
+    margin: 0;
+    color: #fff;
+    border: none;
+    padding: 0 50px;
+    border-radius: 100px;
+    background: #ff5252;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+  }
+  .flex-hot > .item-bottom > .van-button > .van-button__text {
+    font-size: 14px;
+  } */
+  /* .footer {
+    width: 100%;
+    z-index: 99;
+    background: #232323;
+  }
+  .footer > .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px 0;
+    border-bottom: .5px solid #333;
+  }
+  .footer > .footer-container > .icon-box {
+    text-align: center;
+    flex: 1;
+  }
+  .footer > .footer-container > .icon-box > img {
+    width: 40px;
+    height: 40px;
+  }
+  .footer > .footer-container > .icon-box > p {
+    color: #999;
+    margin: 5px 0 0 0;
+    font-size: 14px;
+  } */
